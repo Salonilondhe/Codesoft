@@ -1,0 +1,50 @@
+.calculator {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7; /* added light gray background */
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.button-grid button {
+    background-color: #4CAF50; /* added green background */
+    color: #fff; /* added white text color */
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button-grid button:hover {
+    background-color: #3e8e41; /* added darker green hover effect */
+}
+
+#display {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    background-color: #fff; /* added white background */
+    border: 1px solid #ccc; /* added light gray border */
+}
+
+#clear {
+    background-color: #ff9800; /* added orange background for clear button */
+    color: #fff; /* added white text color for clear button */
+}
+
+#equals {
+    background-color: #009688; /* added teal background for equals button */
+    color: #fff; /* added white text color for equals button */
+}
